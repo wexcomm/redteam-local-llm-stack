@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# PrivateGPT data (sensitive!)
+local_data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+watchdog.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Model weights (large files)
+*.gguf
+*.bin
+*.safetensors
+
+# Secrets (NEVER commit)
+.env
+*.key
+*.pem
+secrets.yaml
